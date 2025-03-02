@@ -1,0 +1,39 @@
+.main-container {
+        width: 550px;
+    }
+
+    html {
+        font-size: 55%;
+    }
+
+@media (max-width: 550px) {
+    body {
+        padding: 0;
+    }
+
+    .main-container {
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 425px) {
+    html {
+        font-size: 45%;
+    }
+}
+
+@media (max-width: 375px) {
+    html {
+        font-size: 35%;
+    }
+}
+
+@media (min-width: 2560px) {
+    .main-container {
+        width: 1024px;
+    }
+
+    html {
+        font-size: 100%;
+    }
+}

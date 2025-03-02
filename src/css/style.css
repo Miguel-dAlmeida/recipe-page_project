@@ -1,0 +1,201 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
+    background-color: var(--body-background-color, hsl(30, 54%, 90%));
+    color: var(--text-color, hsl(30, 10%, 34%));
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4% 0;
+}
+
+
+/* Definição dos estilos padrões da página com o objetivo de reduzir repetições e redundâncias  */
+.main-container .heading-font {
+    font-family: 'Young Serif', serif;
+}
+
+.main-container .section-title {
+    font-size: 2.6rem;
+    color: var(--section-title-color, hsl(14, 45%, 36%));
+    margin-bottom: 1rem;
+}
+
+.main-container li strong {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-right: 0.4rem;
+}
+
+.main-container hr {
+    background-color: var(--horizontal-rule-color, hsl(30, 18%, 87%));
+    border: none;
+    height: 0.1px;
+    opacity: 0.8;
+    margin: 3rem 0;
+}
+
+.main-container :is(.recipe-header, .recipe-preparation, .recipe-nutrition) {
+    margin-bottom: 3rem;
+}
+
+
+/* MAIN CONTAINER */
+.main-container {
+    background-color: var(--main-container-background-color, #fff);
+    width: 720px;
+    padding: 3.2rem;
+    border-radius: 20px;
+}
+
+
+/* RECIPE HEADER */
+.main-container .recipe-header .recipe-image img {
+    border-radius: 10px;
+}
+
+.main-container .recipe-header .recipe-title {
+    margin: 2.5rem 0 1.6rem;
+    color: var(--main-title-color, hsl(24, 5%, 18%));
+    font-size: 3.5rem;
+}
+
+
+/* RECIPE PREPARATION*/
+.main-container .recipe-preparation {
+    background-color: var(--preparation-section-background-color, hsl(330, 100%, 98%));
+    border-radius: 10px;
+    padding: 2.5rem;
+}
+
+.main-container .recipe-preparation .section-title {
+    color: var(--preparation-section-title-color, hsl(332, 51%, 32%));
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Percebi certo desalinhamento entre os bullets da lista e seu conteúdo. Por conta disso, precisei ocultá-los, utilizar Flexbox e definir manulamente os bullets. */
+.main-container .recipe-preparation .preparation-list {
+    list-style: none;
+    margin-left: 1.3rem;
+}
+
+.main-container .recipe-preparation .preparation-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: -1rem;
+}
+
+.main-container .recipe-preparation .preparation-list li::before {
+    content: "·";
+    color: var(--preparation-section-list-bullets-color, hsl(332, 51%, 32%));
+    font-size: 3rem;
+    margin-right: 2.5rem;
+}
+
+
+/* RECIPE INGREDIENTS*/
+.main-container .recipe-ingredients .ingredients-list {
+    list-style: none;
+    margin-left: 1.1rem;
+}
+
+.main-container .recipe-ingredients .ingredients-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: -1rem;
+}
+
+.main-container .recipe-ingredients .ingredients-list li:before {
+    content: "·";
+    color: var(--list-bullets-color, hsl(14, 45%, 36%));
+    font-size: 3rem;
+    margin-right: 2.5rem;
+}
+
+
+/* RECIPE INSTRUCTIONS */
+.main-container .recipe-instructions .instructions-list {
+    margin-left: 2.4rem;
+}
+
+.main-container .recipe-instructions .instructions-list li {
+    text-indent: 0;
+    padding: 0 0 1rem 1.5rem;
+}
+
+.main-container .recipe-instructions .instructions-list li::marker {
+    font-size: 1.5rem;
+    color: var(--list-bullets-color, hsl(14, 45%, 36%));
+    font-weight: 700;
+    padding-right: 1rem;
+}
+
+
+/* RECIPE NUTRITION */
+.main-container .recipe-nutrition .nutrition-description {
+    margin-bottom: 1.3rem;
+}
+
+.main-container .recipe-nutrition .nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.main-container .recipe-nutrition .nutrition-table .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+}
+
+.main-container .recipe-nutrition .nutrition-table .nutrition-row {
+    border-top: 0.5px solid var(--horizontal-rule-color, hsl(30, 18%, 87%));
+}
+
+.main-container .recipe-nutrition .nutrition-table .nutrition-row:first-child {
+    border-top: none;
+}
+
+.main-container .recipe-nutrition .nutrition-table .nutrition-row .nutrition-label {
+    padding: 1rem 2rem 1rem 3rem;
+    text-align: left;
+    font-weight: 600;
+}
+
+.main-container .recipe-nutrition .nutrition-table .nutrition-row .nutrition-value {
+    padding: 1rem 7.5rem 1rem 1rem;
+    font-weight: 700;
+    color: var(--nutrition-value-color, hsl(14, 45%, 36%));
+}
+
+
+/* SITE FOOTER */
+.main-container .site-footer {
+    text-align: center;
+}
+
+.main-container .site-footer .footer-credits {
+    font-size: 1.2rem;
+}
+
+.main-container .site-footer .footer-credits a {
+    transition: 0.3s;
+    color: var(--text-color, hsl(30, 10%, 34%));
+    font-size: 1.2rem;
+}
+
+.main-container .site-footer .footer-credits a:hover {
+    color: var(--footer-credits-link-hover-color, hsl(14, 45%, 36%));
+    font-weight: 700;
+}

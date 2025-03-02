@@ -1,0 +1,19 @@
+:root {
+    --text-color: hsl(30, 10%, 34%);
+    --horizontal-rule-color: hsl(30, 18%, 87%) ;
+    --section-title-color: hsl(14, 45%, 36%); 
+    --list-bullets-color: hsl(14, 45%, 36%);
+
+    --body-background-color: hsl(30, 54%, 90%); 
+
+    --main-container-background-color: #fff; 
+    --main-title-color: hsl(24, 5%, 18%); 
+
+    --preparation-section-background-color: hsl(330, 100%, 98%); 
+    --preparation-section-title-color: hsl(332, 51%, 32%); 
+    --preparation-section-list-bullets-color: hsl(332, 51%, 32%); 
+
+    --nutrition-value-color: hsl(14, 45%, 36%);
+    
+    --footer-credits-link-hover-color:  hsl(14, 45%, 36%);
+}
