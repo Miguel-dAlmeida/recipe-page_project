@@ -16,6 +16,7 @@
 - [Desenvolvimento Contínuo](#desenvolvimento-contínuo)
 - [Agradecimentos e Conclusão](#agradecimentos-e-conclusão)
 - [Contato](#contato)
+- [Licença de Uso](#licença-de-uso)
 
 ## __Apresentação__
 
@@ -107,7 +108,7 @@ Inicialmente, imaginei que a __*Recipe Page*__ não me traria grandes aprendizad
 
 Um dos principais avanços foi na nomeação de classes e na criação de variáveis CSS para cores. Após alguns ajustes, consegui definir um padrão claro e intuitivo, tornando o código mais organizado e fácil de manter. Essa bagagem adquirida certamente facilitará o desenvolvimento dos próximos projetos.
 
-Além disso, aprofundei meus conhecimentos no uso da tag <picture>, que utilizei para fornecer imagens adaptáveis conforme a largura da tela. Também descobri a ferramenta [__Squoosh__](https://squoosh.app/), que me permitiu reduzir o tamanho da imagem `image-omelette.jpeg` (Fornecida pelo *Frontend Mentor*) e criar versões otimizadas dessa imagem para diferentes dispositivos (Celular e Tablet). Isso melhorou o desempenho do site, impactando positivamente a experiência do usuário.
+Além disso, aprofundei meus conhecimentos no uso da tag `<picture>`, que utilizei para fornecer imagens adaptáveis conforme a largura da tela. Também descobri a ferramenta [__Squoosh__](https://squoosh.app/), que me permitiu reduzir o tamanho da imagem `image-omelette.jpeg` (Fornecida pelo *Frontend Mentor*) e criar versões otimizadas dessa imagem para diferentes dispositivos (Celular e Tablet). Isso melhorou o desempenho do site, impactando positivamente a experiência do usuário.
 
 Outro ponto importante foi a estilização das listas. Reforcei conceitos sobre a propriedade `list-style` e explorei o uso do pseudo-elemento `::before` para replicar com precisão o design proposto pelo *Frontend Mentor*.
 
