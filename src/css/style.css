@@ -8,14 +8,20 @@ body {
     background-color: var(--body-background-color, hsl(30, 54%, 90%));
     color: var(--text-color, hsl(30, 10%, 34%));
     font-size: 1.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     padding: 4% 0;
 }
 
 
-/* Definição dos estilos padrões da página com o objetivo de reduzir repetições e redundâncias  */
+/* Definição dos estilos padrões da página com o objetivo de reduzir repetições e redundâncias */
 .main-container .heading-font {
     font-family: 'Young Serif', serif;
 }
@@ -87,7 +93,11 @@ body {
 }
 
 .main-container .recipe-preparation .preparation-list li {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-bottom: -1rem;
 }
@@ -107,12 +117,16 @@ body {
 }
 
 .main-container .recipe-ingredients .ingredients-list li {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-bottom: -1rem;
 }
 
-.main-container .recipe-ingredients .ingredients-list li:before {
+.main-container .recipe-ingredients .ingredients-list li::before {
     content: "·";
     color: var(--list-bullets-color, hsl(14, 45%, 36%));
     font-size: 3rem;
@@ -190,6 +204,8 @@ body {
 }
 
 .main-container .site-footer .footer-credits a {
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
     color: var(--text-color, hsl(30, 10%, 34%));
     font-size: 1.2rem;
