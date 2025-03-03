@@ -98,7 +98,7 @@ No caso das listas, percebi que os bullets das `<ul>` das seções *Preparation 
 }
 ```
 
-Já na tabela, o problema estava relacionado às linhas divisórias. Inicialmente, tentei utilizar *CSS Flexbox* e `display: block` nos elementos da <table>, mas isso interferiu no comportamento natural das células e linhas, dificultando o controle do espaçamento entre as bordas. Após alguns testes, compreendi que o ideal era manter a estrutura padrão da tabela, sem forçar modificações no `display`. Depois desse ajuste, a estilização fluiu sem complicações.
+Já na tabela, o problema estava relacionado às linhas divisórias. Inicialmente, tentei utilizar *CSS Flexbox* e `display: block` nos elementos da `<table>`, mas isso interferiu no comportamento natural das células e linhas, dificultando o controle do espaçamento entre as bordas. Após alguns testes, compreendi que o ideal era manter a estrutura padrão da tabela, sem forçar modificações no `display`. Depois desse ajuste, a estilização fluiu sem complicações.
 
 Enfrentar esses desafios exigiu paciência e algumas pesquisas, mas, no final, cada obstáculo superado contribuiu para meu amadurecimento como desenvolvedor. Agora, sei lidar melhor com esses aspectos e posso evitar esses mesmos problemas em projetos futuros.
 
