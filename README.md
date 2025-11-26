@@ -130,7 +130,7 @@ Também não posso deixar de agradecer ao [**DevQuest**](https://www.youtube.com
 
 <div align="center">
       <a href="https://www.youtube.com/@DevemDobro">
-        <img src="https://raw.githubusercontent.com/Miguel-dAlmeida/recipe-page_project/main/src/images/devquest_dev_em_dobro_logo" width="150px" alt="Logo da empresa DevQuest - Dev em Dobro"/>
+        <img src="https://raw.githubusercontent.com/Miguel-dAlmeida/recipe-page_project/main/src/images/devquest_dev_em_dobro_logo.jpg" width="150px" alt="Logo da empresa DevQuest - Dev em Dobro"/>
       </a>
 </div>
 <br>
