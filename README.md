@@ -1,7 +1,7 @@
 # Recipe Page | Desafio do Frontend Mentor
 
 <div>
-  <img src="./src/images/gif_final_page.gif" alt="Gif do resultado final da página">
+  <img src="https://raw.githubusercontent.com/Miguel-dAlmeida/recipe-page_project/main/src/images/gif_final_page.gif" alt="Gif do resultado final da página">
 </div>
 
 ### [Veja a página clicando aqui!](https://miguel-dalmeida.github.io/recipe-page_project/) 
@@ -130,7 +130,7 @@ Também não posso deixar de agradecer ao [**DevQuest**](https://www.youtube.com
 
 <div align="center">
       <a href="https://www.youtube.com/@DevemDobro">
-        <img src="./src/images/devquest_dev_em_dobro_logo.jpg" width="150px" alt="Logo da empresa DevQuest - Dev em Dobro"/>
+        <img src="https://raw.githubusercontent.com/Miguel-dAlmeida/recipe-page_project/main/src/images/devquest_dev_em_dobro_logo" width="150px" alt="Logo da empresa DevQuest - Dev em Dobro"/>
       </a>
 </div>
 <br>
@@ -152,5 +152,5 @@ Este código está disponível exclusivamente para fins educacionais. Qualquer o
 
 <br>
 <div align="center">
-  <img src="https://i.imgur.com/kwfpJJn.gif" alt="Imagem representando união e parceria" width="80%">
+  <img src="https://raw.githubusercontent.com/Miguel-dAlmeida/recipe-page_project/main/src/images/closingImage.gif" alt="Imagem representando união e parceria" width="80%">
 </div>
